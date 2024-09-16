@@ -1,0 +1,47 @@
+/* CSS: Estilizar o formulário para que seja responsivo e atraente, centralizando-o na página e aplicando estilos aos inputs e botões. */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    background-color: #b6eecb;
+    width: 400px;
+    height: auto;
+    border-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #000;
+}
+
+#form input{
+    border-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #000;
+    width: 330px;
+}
+
+#form input[type="password"]{
+    width: 250px;
+}
+
+#form label{
+    font-weight: bold;
+}
+
+#form button{
+    background-color: rgb(240, 248, 255);
+    width: 100px;
+    align-self: center;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 4px #000;
+}
+
+#form button:hover{
+    background-color: rgb(184, 205, 233);
+}
+

@@ -1,0 +1,86 @@
+<!-- 3. To-Do List com Filtros
+
+Objetivo: Criar uma lista de tarefas onde o usuário pode adicionar, remover, marcar como concluídas e filtrar as tarefas por status (todas, concluídas, não concluídas).
+
+Tarefas:
+HTML: Estruturar a aplicação com um campo de entrada de texto para adicionar novas tarefas, uma lista para exibir as tarefas e botões de filtro (todos, concluídos, não concluídos). -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="tarefas" class = "tarefas">
+
+        <h1>Tarefas Da Semana</h1>
+
+        <label><strong>Nova tarefa</strong></label>
+        <input id="novaTarefa" type="text">
+
+        <button id="adicionar"><img src="adicionar.png" alt="adicionar"></button>
+
+        <div id= "linha" class="tarefas"></div>
+
+        <div id="filtros" class = "tarefas">
+
+            <label><strong>Filtros</strong></label>
+
+            
+            <label class="switch">
+                
+                    <div class="switch-wapper">
+                        <input type="checkbox" name="todos" id="todos"/>
+                        <span class="switch-button"></span>
+                    </div>
+
+                    <span class="switch-text">
+                        Todas
+                    </span>
+
+            </label>
+            
+            <label class="switch">
+
+                <div class="switch-wapper">
+                    <input type="checkbox" name="concluidos" id="concluidos"/>
+                    <span class="switch-button"></span>
+                </div>
+
+                <span>
+                    Concluídas
+                </span>
+
+            </label>
+            
+            <label class="switch">
+
+                <div class="switch-wapper">
+                    <input type="checkbox" name="nConcluidos" id="nConcluidos"/>
+                    <span class="switch-button"></span>
+                </div>
+
+                <span>
+                    Não Concluídas
+                </span>
+            </label>
+
+        </div>
+
+        <div id= "linha" class="tarefas"></div>
+        
+            <ul id="listaTarefas">
+            </ul>   
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
