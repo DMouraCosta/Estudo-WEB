@@ -1,25 +1,40 @@
-<!-- Exercício 1: Criar uma Página de Portfólio Simples
-Objetivo: Criar uma página de portfólio que exiba suas informações básicas e links para seus projetos.
-Instruções:
-Crie um arquivo index.html com um layout simples contendo:
-Um cabeçalho com seu nome e título (ex: "Desenvolvedor Web").
-Uma seção "Sobre Mim" com uma breve descrição.
-Uma lista com links para três projetos fictícios (use URLs como placeholders).
-Um rodapé com suas informações de contato (e-mail, LinkedIn).
-Estilize a página usando um arquivo CSS externo:
-Use flexbox para alinhar os itens no cabeçalho e na lista de projetos.
-Defina uma cor de fundo, fontes e espaçamento.
-Use JavaScript para criar uma interação simples:
-Quando o usuário clicar em um projeto na lista, exiba um "alert" com a mensagem "Você clicou no [nome do projeto]". -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Simples</title>
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <div class="titulo">
+                <h1>Dailson Costa - Dev Web</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="sobreMim">
+        <div class="sobreMim-texto">
+            <p>Graduado em Análise e desenvolvimento de sistemas, MBA em Qualidade e gestão de Software.</p>
+        </div>
+        <h2>Projetos</h2>
+        <div class="sobreMim-projetos">
+            <a href="#">Ai Qualify</a>
+            <a href="#">Exercicios</a>
+            <a href="#">Publico</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>2024 - Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: <a href="mailto:dailson100@gmail.com">dailson100@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script> 
 </body>
 </html>

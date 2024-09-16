@@ -1,0 +1,56 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+}
+.sobreMim{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #0f0f0f;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+.sobreMim-texto{
+
+}
+
+.sobreMim-projetos{
+    display: flex;
+    gap: 15px;
+
+}
+
+.sobreMim-projetos a{
+    border: solid 1px aquamarine;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: rgb(66, 65, 65);
+    text-decoration: none;
+    
+}
+
+.sobreMim-projetos a:hover{
+    background-color: rgb(101, 226, 184);
+    
+}
+footer{
+    text-align: center;
+   
+}
