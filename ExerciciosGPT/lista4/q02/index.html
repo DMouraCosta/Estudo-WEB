@@ -28,13 +28,19 @@ Dê ao usuário 3 tentativas para acertar o número. Após as tentativas, se ele
         <h1>Advinhe o numero!</h1>
         <div class="container-entradas">
             <input id="entradaUser" type="text">
-            <button id="adivinhar"><img src="img/adivinha.png" alt="advinhar">Tentar!</button>
+            <button id="adivinhar"><img src="img/adivinha.png" alt="advinhar"><p id="textoBotao">Tentar!</p></button>
             
         </div>
         <div class="container-resultado">
-            <img src="img/ioga.png" alt="esperando">
-            <p>Estou pensando em um dumero entre 1 e 10!</p>
+            <img id="imagemResultado" src="img/ioga.png" alt="esperando">
+            <p id="textoResultado">Estou pensando em um numero entre 1 e 10!</p>
+
+            <audio id="somAcerto" src="sound/acerto.mp3"></audio>
+            <audio id="somErro" src="sound/erro.mp3"></audio>
+
         </div>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>

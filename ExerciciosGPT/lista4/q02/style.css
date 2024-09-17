@@ -10,13 +10,14 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    gap:10px
 }
 
 .container-entradas{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 40px;
     padding: 10px;
 }
 
@@ -32,21 +33,24 @@ body{
     flex-direction: column;
     justify-content: center; 
     align-items: flex-end; 
-    gap:10px;
+    padding-left: 2px;
 }
 
 .container-entradas button img{
     max-width: 100%;
     max-height: 100%;
-   
-
 }
 
 .container-entradas input{
-    width: 80px;
+    width: 68px;
     height: 60px;
     font-size: 60px;
     box-shadow: 0 0 3px aliceblue;
+    text-align: center;
+}
+
+.container-entradas p{
+    align-self: center;
 }
 
 .container-resultado{
@@ -63,3 +67,4 @@ body{
     width: 200px;
     
 }
+
