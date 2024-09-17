@@ -1,43 +1,24 @@
-<!-- Exercício 2: Jogo Simples de Adivinhação
-Objetivo: Criar um pequeno jogo de adivinhação de números usando HTML, CSS e JavaScript.
-Instruções:
-Crie uma página com um campo de entrada de texto onde o usuário possa inserir um número entre 1 e 10, e um botão para verificar se o número está correto.
-Gere um número aleatório entre 1 e 10 quando a página carregar (use JavaScript para isso).
-Ao clicar no botão, compare o número inserido pelo usuário com o número gerado:
-Se estiver correto, exiba uma mensagem de sucesso ("Parabéns, você acertou!").
-Se estiver errado, exiba uma mensagem de erro ("Tente novamente").
-Estilize a página com CSS, organizando os elementos de forma clara e simples:
-O campo de entrada e o botão devem estar centralizados na página.
-Mensagens de sucesso ou erro devem ser exibidas com cores diferentes (verde para sucesso, vermelho para erro).
-Dê ao usuário 3 tentativas para acertar o número. Após as tentativas, se ele não acertar, exiba o número correto. -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="style.css">
-
-    <title>Jogo Adivinha o numero</title>
-
-
+    <title>Jogo Adivinha o Número</title>
 </head>
 <body>
     <section class="container">
-        <h1>Advinhe o numero!</h1>
+        <h1>Advinhe o número!</h1>
         <div class="container-entradas">
-            <input id="entradaUser" type="text">
-            <button id="adivinhar"><img src="img/adivinha.png" alt="advinhar"><p id="textoBotao">Tentar!</p></button>
-            
+            <input id="entradaUser" type="number" min="1" max="10" placeholder="">
+            <button id="adivinhar"><img src="img/adivinha.png" alt="adivinhar"><p id="textoBotao">Tentar!</p></button>
         </div>
         <div class="container-resultado">
             <img id="imagemResultado" src="img/ioga.png" alt="esperando">
-            <p id="textoResultado">Estou pensando em um numero entre 1 e 10!</p>
+            <p id="textoResultado">Estou pensando em um número entre 1 e 10!</p>
 
             <audio id="somAcerto" src="sound/acerto.mp3"></audio>
             <audio id="somErro" src="sound/erro.mp3"></audio>
-
         </div>
     </section>
 

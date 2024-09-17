@@ -42,7 +42,7 @@ body{
 }
 
 .container-entradas input{
-    width: 68px;
+    width: 83px;
     height: 60px;
     font-size: 60px;
     box-shadow: 0 0 3px aliceblue;
@@ -61,6 +61,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 24px;
 }
 
 .container-resultado img{
