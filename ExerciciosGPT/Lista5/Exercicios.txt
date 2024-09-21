@@ -1,0 +1,30 @@
+1. Criação de uma Landing Page Simples
+Descrição:
+Crie uma landing page simples para um produto fictício. A página deve ter um cabeçalho, uma seção de apresentação do produto e um rodapé.
+
+Requisitos:
+
+HTML: Estruturação da página com header, section, e footer.
+CSS: Adicione estilos básicos, como cores, espaçamentos e fontes. Certifique-se de que a página seja responsiva em telas de diferentes tamanhos.
+JavaScript: Adicione um botão "Saiba Mais" que, ao ser clicado, exiba um alert com uma mensagem simples sobre o produto.
+
+2. Criação de um Formulário de Contato com Validação
+Descrição:
+Implemente um formulário de contato com campos para nome, email e mensagem. Ao submeter o formulário, valide os campos de entrada com JavaScript para garantir que os dados estejam corretos.
+
+Requisitos:
+
+HTML: Estruture o formulário com campos de texto (input type="text"), email (input type="email") e uma área de texto (textarea).
+CSS: Adicione estilos para melhorar a aparência do formulário (bordas, espaçamento e layout responsivo).
+JavaScript: Faça a validação do formulário, verificando se todos os campos estão preenchidos e se o email inserido é válido antes de permitir o envio.
+
+3. Criação de uma Calculadora Simples
+Descrição:
+Desenvolva uma calculadora básica que permita realizar operações de adição, subtração, multiplicação e divisão. A calculadora deve ter um layout simples com botões numéricos e de operações, além de um display para mostrar o resultado.
+
+Requisitos:
+
+HTML: Crie a estrutura da calculadora, incluindo botões numéricos de 0 a 9, botões para as operações (+, -, *, /) e um botão "=" para calcular o resultado. Também adicione um display (um input ou uma div) para exibir os números e o resultado.
+CSS: Estilize a calculadora para que os botões tenham uma disposição clara e organizada, com espaçamento entre eles, e que o layout seja responsivo.
+JavaScript: Implemente a lógica da calculadora para permitir que o usuário clique nos botões e veja os cálculos realizados no display. Utilize eventos onclick para capturar a entrada do usuário e realizar as operações matemáticas.
+Essas tasks abordam fundamentos essenciais de HTML, CSS e JavaScript e são adequadas para praticar habilidades de desenvolvimento front-end.
