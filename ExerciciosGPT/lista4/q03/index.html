@@ -10,27 +10,29 @@ Adicione uma animação para a transição de abertura e fechamento do modal.
 Certifique-se de que o layout seja responsivo, com a galeria reorganizando as imagens conforme o tamanho da tela diminui. -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Galeria de Imagens</title>
     <link rel="stylesheet" href="style.css">
-
-    <title>Galeria</title>
-
 </head>
 <body>
-    <section class="container">
-        <div class="container-galeria">
-            <img src="" alt="" class="container-galeria">
-            <img src="" alt="" class="container-galeria">
-            <img src="" alt="" class="container-galeria">
-            <img src="" alt="" class="container-galeria">
-            <img src="" alt="" class="container-galeria">
-            <img src="" alt="" class="container-galeria">
-        </div>
-    </section>
+    <div class="gallery">
+        <img src="img/img01.jpg" alt="Imagem 1" class="thumbnail">
+        <img src="img/img02.jpg" alt="Imagem 1" class="thumbnail">
+        <img src="img/img03.jpg" alt="Imagem 1" class="thumbnail">
+        <img src="img/img04.jpg" alt="Imagem 1" class="thumbnail">
+        <img src="img/img05.jpg" alt="Imagem 1" class="thumbnail">
+        <img src="img/img06.jpg" alt="Imagem 1" class="thumbnail">
+       
+    </div>
+
+    <div id="modal" class="modal">
+        <span id="closeModal" class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
