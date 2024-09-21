@@ -1,0 +1,131 @@
+
+  
+  body {
+    background: linear-gradient(to right, rgb(90, 159, 205), lightblue);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  header {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparência sutil no fundo */
+    padding: 40px 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* Linha inferior destacada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    color: white;
+    background-color: rgb(45, 138, 138);
+}
+
+header p {
+    font-size: 1.2em;
+    line-height: 1.6; 
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.9); 
+    text-align: justify;
+}
+
+
+.descricao span {
+    font-weight: bold;
+    color: rgb(255, 230, 130); 
+}
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    color: white;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer a {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+
+footer a:hover {
+    color: rgb(253, 253, 253);
+    transform: scale(0.5);
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px 10px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+    footer p {
+        font-size: 0.9em;
+    }
+    footer {
+        padding: 15px;
+    }
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 25px;
+}
+
+.descricao span{
+    font-weight: bold;
+}
+
+button{
+
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    margin-top: 20px;
+
+  }
+
+  @keyframes bounce { 
+    40% { transform: translateY(-10px);}
+    60% { transform: translateY(-5px);}
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0);}
+  }
+  
+  .produto-imagem img{
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  }
+

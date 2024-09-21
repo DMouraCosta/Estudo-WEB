@@ -1,11 +1,63 @@
+<!-- 1. Criação de uma Landing Page Simples
+Descrição:
+Crie uma landing page simples para um produto fictício. A página deve ter um cabeçalho, uma seção de apresentação do produto e um rodapé.
+
+Requisitos:
+
+HTML: Estruturação da página com header, section, e footer.
+
+CSS: Adicione estilos básicos, como cores, espaçamentos e fontes. Certifique-se de que a página seja responsiva em telas de diferentes tamanhos.
+
+JavaScript: Adicione um botão "Saiba Mais" que, ao ser clicado, exiba um alert com uma mensagem simples sobre o produto. -->
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Landing Page</title>
 </head>
+
 <body>
+
+    <header>
+        <div class="descricao">
+
+            <h1>Experimente o som como nunca antes com os nossos Fones de Ouvido de Alta Qualidade!</h1>
+
+            <p>
+                Projetados para proporcionar uma experiência de áudio imersiva e cristalina, nossos fones de ouvido combinam design moderno com desempenho sonoro superior. Com graves profundos e agudos claros, você ouvirá cada detalhe de suas músicas, podcasts e chamadas.
+            </p>
+
+            <p><span class="descricao">Conforto e Estilo:</span> Feitos com materiais leves e acolchoados, esses fones oferecem o máximo conforto, mesmo após horas de uso. Seu design ergonômico se ajusta perfeitamente às orelhas, garantindo uma vedação eficaz para bloquear o ruído externo.</p>
+
+            <p><span class="descricao">Tecnologia de Última Geração:</span>T Equipados com conectividade sem fio Bluetooth, você pode se movimentar livremente sem se preocupar com cabos. A bateria de longa duração garante até 20 horas de música contínua, para que você possa aproveitar seus sons favoritos sem interrupções.
+
+            <p><span class="descricao">Compatibilidade Universal:</span> Compatível com smartphones, tablets, notebooks e qualquer dispositivo com Bluetooth, nossos fones de ouvido são ideais para o dia a dia, seja para trabalhar, estudar, viajar ou simplesmente relaxar.</p>
+
+        </div>
+
+    </header>
     
+    <section class="produto">
+        <div class="produto-imagem">
+            <img src="https://img.freepik.com/fotos-gratis/fones-de-ouvido-sem-fio-com-iluminacao-de-estilo-neon-cyberpunk_23-2151074307.jpg?t=st=1726952694~exp=1726953294~hmac=ea969fc991065d47596cef1beb2c0576d6df7f0cbe98859e56db08cfec44acd2" alt="produto">
+        </div>
+
+        <button id="mais">Saiba mais!</button>
+
+    </section>
+    
+    <footer>
+        <p>Todos os direitos reservados</p>
+        <p>Entre en contato <a href="mailto:dailson100@gmail.com">dailson100@gmail.com</a></p>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
